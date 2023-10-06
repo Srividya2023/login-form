@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+
+@media (max-width: 768px) {
+  .header-website-logo {
+    width: 50%;
+  }
+  .nav-logout {
+    width: 15%;
+  }
+  .large-list {
+    display: none;
+  }
+  .small-header-part2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e6f6ff;
+    padding: 20px 0px 20px 0px;
+  }
+  .small-header-image {
+    
+    width: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-website-logo {
+    height: 50px;
+    width: 180px;
+  }
+  .nav-logout {
+    display: none;
+  }
+
+  .large-list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  li {
+    margin: 10px;
+    color: #475569;
+  }
+  .small-header-part2 {
+    display: none;
+  }
+  .logout-btn {
+    background-color: #0b69ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 13px 8px 13px;
+    border-radius: 8px;
+  }
+}

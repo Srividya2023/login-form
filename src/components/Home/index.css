@@ -1,0 +1,69 @@
+/* Write your CSS code here */
+
+.clothes-image-small {
+  width: 40%;
+}
+
+.shop-now-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 25px 10px 25px;
+  border-radius: 8px;
+}
+.clothes-alignment {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .clothes-image-large {
+    display: none;
+  }
+  .flexibility {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-bottom: 20px;
+  }
+  .clothes-description {
+    width: 70%;
+
+    color: #475569;
+  }
+  .clothes-heading {
+    font-size: 24px;
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  .clothes-image-small {
+    display: none;
+  }
+  .clothes-image-large {
+    width: 30%;
+  }
+  .large-flexibility {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+  }
+  .clothes-alignment {
+    text-align: left;
+  }
+  .clothes-heading {
+    font-size: 30px;
+    width: 47%;
+  }
+  .clothes-description {
+    font-size: 17px;
+    width: 67%;
+    color: #475569;
+  }
+}
